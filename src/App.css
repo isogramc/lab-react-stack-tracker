@@ -1,36 +1,8 @@
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+  width: 100%;
 }
 
 .card {
@@ -39,4 +11,113 @@
 
 .read-the-docs {
   color: #888;
+}
+
+nav{
+  width: 100%;
+  padding: 1em;
+  background-color: rgb(100, 108, 255);
+  color: #FFF;
+  font-weight: bold;
+}
+
+.pages-wrapper{
+  padding: 1.5em;
+}
+
+.pages-wrapper h1{
+  width: 100%;
+  text-align: center;
+}
+
+.tracks-wrapper{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.texh-wrapper{
+  text-align: center;
+}
+
+.tech-wrapper{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  overflow: scroll;
+  margin: 1em;
+  padding-top: 2em;
+}
+
+/* .tech-wrapper::-webkit-scrollbar {
+  display: none; /* Hides the scrollbar 
+} */
+
+.company-details{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.tech-details{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.image-container{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+  padding: 1em;
+  height: 15em;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container-sml{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+  padding: 1em;
+  height: 8em;
+  width: 8em;
+  justify-content: center;
+  align-items: center;
+}
+
+.square{
+  width: 15em;
+  border-radius: 3px;
+  box-shadow: rgb(139, 138, 138) 1px 1px 1px 1px;
+}
+
+.long{
+  width: 30em;
+}
+
+.image-container h3{
+  width:100%;
+  text-align: center;
+}
+
+.image-container img{
+  width: 5em;
+  height: auto;
+}
+
+.image-container-sml img{
+  width: 2em;
+  height: auto;
+}
+
+.square-sml{
+  border-radius: 3px;
+  box-shadow: rgb(139, 138, 138) 1px 1px 1px 1px;
+}
+
+.image-container a{
+  color: black;
 }
